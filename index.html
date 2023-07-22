@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Eduware</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link href="images/logofav.ico" rel="shortcut icon" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jq.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slider_menu.js"></script>
+    <script src="js/smooth_mouse_wheel.js"></script>
+    <script src="js/view_scroll.js"></script>
+    <script src="js/prompt.js"></script>
+    <script src="js/typeahead.js"></script>
+    <script src="js/typeahead-bootstrap.js"></script>
+    <link rel="stylesheet" href="css/prompt.css" />
+
+</head>
+
+<body id="index">
+
+    <div class="landing-page">
+        <div class="navbar">
+            <img src="images/logo.png" class="navbar-logo">
+            <div class="navbar-name">Eduware</div>
+            <i class="navbar-contents dropdown-margin material-icons mobile-nav" onclick="openNav()">menu</i>
+            <button class="btn-green">&#8680; Signin</button>
+            <a class="txt-none li navbar-contents dropdown-margin" href="index.php#contact">Contact&nbsp;Us</a>
+            <a class="txt-none li navbar-contents dropdown-margin" href="index.php#pricing">Pricing</a>
+            <a class="txt-none li navbar-contents dropdown-margin" href="index.php#examination">About</a>
+            <a class="txt-none li navbar-contents dropdown-margin" href="index.php#index">Home</a>
+        </div>
+
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="txt-none li" style="font-size:1.2rem;" href="index.php#index">Home</a>
+            <a class="txt-none li" style="font-size:1.2rem;" href="index.php#examination">About</a>
+            <a class="txt-none li" style="font-size:1.2rem;" href="index.php#pricing">Pricing</a>
+            <a class="txt-none li" style="font-size:1.2rem;" href="index.php#contact">Contact Us</a>
+            <div class="footer-nav">
+                &copy;&nbsp;AERO&nbsp;Developers&nbsp;2020
+            </div>
+        </div>
+        <div style="height:100%;overflow:hidden;">
+            <div id="myImage"></div>
+        </div>
+        <div class="landingpage-text">
+            <div id=container>
+                <h4 style="text-transform:uppercase;">EDUWARE</h4>
+                Tailor made
+                <div id=flip>
+                    <div>
+                        <div>BILLING</div>
+                    </div>
+                    <div>
+                        <div>ATTENDANCE</div>
+                    </div>
+                    <div>
+                        <div>INVENTORY</div>
+                    </div>
+                </div>
+                Solutions
+                <h4 style="text-transform:uppercase;">FOR INSTITUTES</h4>
+            </div>
+        </div>
+        <div class="quote-req">
+            <form action="submit.php">
+                <h2>Get Started.</h2>
+                <label>Search Institute</label>
+                <input type="text" name="institutedata" id="institutedata" class="form-input form-control input-lg" autocomplete="off" placeholder="Type Institute Name" />
+                <input type="submit" name="pay" class="btn-green-full" value="SUBMIT" />
+            </form>
+        </div>
+    </div>
+
+    <div class="section" id="section-keep-view">
+        <div class="section-nav-left" id="section-nav-left-keep-view">
+            <h2>4 ways we help<br>digitalize Institutes</h2>
+            <a class="txt-none h5 h5selected" href="#examination">1.Examination</a>
+            <a class="txt-none h5" href="#attendance">2.Attendance</a>
+            <a class="txt-none h5" href="#billing">3.Billing</a>
+            <a class="txt-none h5" href="#inventory">4.Inventory</a>
+        </div>
+        <div class="section-nav-right">
+            <h2 id="examination">Examination</h2>
+            <p>With Edu Ware, you are relieved from all hurdles that come with traditional paper-based exams like malpractices, illegible handwriting, troubles of marking etc. We stand top-notch in ensuring scheduled and supervised conduct of online exams.
+                Our networks are highly cheat-proof and authenticated. Easy and accurate assessment of answers is made possible with our well-organized portals. Generating candidates’ performance reports and monitoring the same on criteria you set is
+                another notable attribute of our system. Government institutions have also conducted successful online assessments by employing our optimum software design. Conduct your next exams in an efficient and secured manner with Edu Ware.
+            </p>
+            <a style="float:none;cursor:pointer;" class="txt-none li bubble-box" href="#contact">Contact Us</a>
+
+            <h2 id="attendance">Attendance</h2>
+            <p>Manage your attendance reports like never before with Edu Ware. Our top of the line services will give you a smooth experience in recording and analyzing insider attendance of your institute. Simplicity in the operations of our software gives
+                you an all the more hassle-free attendance management. Our well composed system ensures timely updates on attendance. Keeping track of the attendance performance will be much more effortless through our advanced analytical design. We provide
+                a user-oriented and trouble-free arrangement for recording, updating and analyzing presence or absence of the members. Tracking on absentees, latecomers and other such useful insights is made possible with Edu Ware.</p>
+            <a style="float:none;cursor:pointer;" class="txt-none li bubble-box" href="#contact">Contact Us</a>
+
+            <h2 id="billing">Billing</h2>
+            <p>Choosing Edu Ware relieves you from unorganized invoices and complex payment gateways. We provide you with effortless invoice templates containing all vital information that will take your billing and invoicing experiences to the next level
+                of efficiency and professionalism. Our well-founded analytical system will help you fetch useful insights from several reports. We constitute to efficiency in terms of organization and maintenance of billing records. We strive to ensure
+                that your entire billing process is labour-saving. Our simple yet secure payment gateway makes way for complete convenience. Edu Ware ensures to give you a user-friendly and convenient billing experience.
+            </p>
+            <a style="float:none;cursor:pointer;" class="txt-none li bubble-box" href="#contact">Contact Us</a>
+
+            <h2 id="inventory">Inventory</h2>
+            <p>Edu Ware brings a proficient track of inventory levels, sales and deliveries on your fingertips. We ensure to help you maintain sufficient stock to meet the sales requirements. Our proficient services take due care to generate reports that
+                will provide you an insight of the right quantity of stock to maintain thereby avoiding over stocking which may lead to increased costs. We provide you with real-time data to ensure that you make the right decisions on inventory. All data
+                and reports generated are highly user-friendly and permits easy sharing and analysis. We ensure that all that you require to maintain an efficient inventory is brought to your convenience. Plan your cost effective and systematic inventory
+                with Edu Ware.</p>
+            <a style="float:none;cursor:pointer;" class="txt-none li bubble-box" href="#contact">Contact Us</a>
+        </div>
+    </div>
+    <h3 id="pricing">Pricing</h3>
+    <div class="section tile-section">
+        <div class="tile">
+            <p>Examination BASIC</p>
+            <h5>&#8377;18,000<sup>&#10033;</sup>
+                <h2 style="line-height:4rem;">&nbsp;/ Institute</h2>
+            </h5>
+            <p><span>&#10003;&nbsp;</span>Admin panel version (3.61)</p>
+            <p><span>&#10003;&nbsp;</span>UI Version (2.11)</p>
+            <p><span>&#10003;&nbsp;</span>Chrome UI</p>
+            <p><span>&#10003;&nbsp;</span>Online Faculty Training</p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Onsite Faculty Training</p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Unlimited Users<sup>&nbsp;&#10033;&#10033;</sup></p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Unlimited Systems<sup>&nbsp;&#10033;&#10033;</sup></p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Backup storage</p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Software update support</p>
+            <p class="conditions-apply"><sup>&#10033;&nbsp;</sup>Price may vary based on features</p>
+            <p class="conditions-apply"><sup>&#10033;&#10033;&nbsp;</sup>Unlimited is limited by server bandwidth</p>
+        </div>
+        <div class="tile">
+            <p>Examination ECONOMY</p>
+            <h5>&#8377; 27,000<sup>&#10033;</sup>
+                <h2 style="line-height:4rem;">&nbsp;/ Institute</h2>
+            </h5>
+            <p><span>&#10003;&nbsp;</span>Admin panel version (3.21)</p>
+            <p><span>&#10003;&nbsp;</span>UI Version (1.01)</p>
+            <p><span>&#10003;&nbsp;</span>Chrome UI</p>
+            <p><span>&#10003;&nbsp;</span>Online Faculty Training</p>
+            <p><span>&#10003;&nbsp;</span>Onsite Faculty Training</p>
+            <p><span>&#10003;&nbsp;</span>Unlimited Users<sup>&nbsp;&#10033;&#10033;</sup></p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Unlimited Systems<sup>&nbsp;&#10033;&#10033;</sup></p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Backup storage</p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Software update support</p>
+            <p class="conditions-apply"><sup>&#10033;&nbsp;</sup>Price may vary based on features</p>
+            <p class="conditions-apply"><sup>&#10033;&#10033;&nbsp;</sup>Unlimited is limited by server bandwidth</p>
+        </div>
+        <div class="tile">
+            <p>Examination DELUXE</p>
+            <h5>&#8377; 48,000<sup>&#10033;</sup>
+                <h2 style="line-height:4rem;">&nbsp;/ Institute</h2>
+            </h5>
+            <p><span>&#10003;&nbsp;</span>Admin panel version (4.01)</p>
+            <p><span>&#10003;&nbsp;</span>UI Version (2.01)</p>
+            <p><span>&#10003;&nbsp;</span>Chrome UI</p>
+            <p><span>&#10003;&nbsp;</span>Online Faculty Training</p>
+            <p><span>&#10003;&nbsp;</span>Onsite Faculty Training</p>
+            <p><span>&#10003;&nbsp;</span>Unlimited Users<sup>&nbsp;&#10033;&#10033;</sup></p>
+            <p><span>&#10003;&nbsp;</span>Unlimited Systems<sup>&nbsp;&#10033;&#10033;</sup></p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Backup storage</p>
+            <p><span>&#10003;&nbsp;</span>Software update support</p>
+            <p class="conditions-apply"><sup>&#10033;&nbsp;</sup>Price may vary based on features</p>
+            <p class="conditions-apply"><sup>&#10033;&#10033;&nbsp;</sup>Unlimited is limited by server bandwidth</p>
+        </div>
+    </div>
+
+    <div class="section tile-section">
+        <div class="tile">
+            <p>Examination ULTIMATE</p>
+            <h5>&#8377;54,000<sup>&#10033;</sup>
+                <h2 style="line-height:4rem;">&nbsp;/ Institute</h2>
+            </h5>
+            <p><span>&#10003;&nbsp;</span>Admin panel version (Latest)</p>
+            <p><span>&#10003;&nbsp;</span>UI Version (Latest)</p>
+            <p><span>&#10003;&nbsp;</span>Chrome UI</p>
+            <p><span>&#10003;&nbsp;</span>Online Faculty Training</p>
+            <p><span>&#10003;&nbsp;</span>Onsite Faculty Training</p>
+            <p><span>&#10003;&nbsp;</span>Unlimited Users<sup>&nbsp;&#10033;&#10033;</sup></p>
+            <p><span>&#10003;&nbsp;</span>Unlimited Systems<sup>&nbsp;&#10033;&#10033;</sup></p>
+            <p><span>&#10003;&nbsp;</span>Backup storage</p>
+            <p><span>&#10003;&nbsp;</span>Software update support</p>
+            <p class="conditions-apply"><sup>&#10033;&nbsp;</sup>Price may vary based on features</p>
+            <p class="conditions-apply"><sup>&#10033;&#10033;&nbsp;</sup>Unlimited is limited by server bandwidth</p>
+        </div>
+        <div class="tile">
+            <p>Examination SHARED 3.0</p>
+            <h5>&#8377;5,000<sup>&#10033;</sup>
+                <h2 style="line-height:4rem;">&nbsp;/ Year</h2>
+            </h5>
+            <p><span>&#10003;&nbsp;</span>Admin panel version (3.61)</p>
+            <p><span>&#10003;&nbsp;</span>UI Version (2.11)</p>
+            <p><span>&#10003;&nbsp;</span>Chrome UI</p>
+            <p><span>&#10003;&nbsp;</span>Online Faculty Training</p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Onsite Faculty Training</p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Unlimited Users<sup>&nbsp;&#10033;&#10033;</sup></p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Unlimited Systems<sup>&nbsp;&#10033;&#10033;</sup></p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Backup storage</p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Software update support</p>
+            <p class="conditions-apply"><sup>&#10033;&nbsp;</sup>Price may vary based on features</p>
+            <p class="conditions-apply"><sup>&#10033;&#10033;&nbsp;</sup>Unlimited is limited by server bandwidth</p>
+        </div>
+        <div class="tile">
+            <p>Examination SHARED 4.0</p>
+            <h5>&#8377;9,000<sup>&#10033;</sup>
+                <h2 style="line-height:4rem;">&nbsp;/ Year</h2>
+            </h5>
+            <p><span>&#10003;&nbsp;</span>Admin panel version (3.61)</p>
+            <p><span>&#10003;&nbsp;</span>UI Version (2.11)</p>
+            <p><span>&#10003;&nbsp;</span>Chrome UI</p>
+            <p><span>&#10003;&nbsp;</span>Online Faculty Training</p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Onsite Faculty Training</p>
+            <p><span>&#10003;&nbsp;</span>Unlimited Users<sup>&nbsp;&#10033;&#10033;</sup></p>
+            <p><span>&#10003;&nbsp;</span>Unlimited Systems<sup>&nbsp;&#10033;&#10033;</sup></p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Backup storage</p>
+            <p><span style="color:red;">&#10008;&nbsp;</span>Software update support</p>
+            <p class="conditions-apply"><sup>&#10033;&nbsp;</sup>Price may vary based on features</p>
+            <p class="conditions-apply"><sup>&#10033;&#10033;&nbsp;</sup>Unlimited is limited by server bandwidth</p>
+        </div>
+    </div>
+
+
+    <h3 id="reviews">CUSTOMER&nbsp;&nbsp;REVIEWS</h3>
+    <!-- <div class="section review-tile-section">
+	<div class="review-tile">
+	<img class="review-user-icon" src="images/user.png">
+	<p>User Name</p>
+	<p class="conditions-apply">14 January 2020</p>
+	<p class="review-star">&#10029;&#10029;&#10029;&#10029;&#10029;</p>
+	<p style="text-align:left;">Excellent innovation and excellent understanding
+	   of customer needs.An organisation run professionally 
+	   confirming to international standards. Warm, 
+	   caring and friendly staff..!!</p>
+	</div>	
+	<div class="review-tile">
+	<img class="review-user-icon" src="images/user.png">
+	<p>User Name</p>
+	<p class="conditions-apply">14 January 2020</p>
+	<p class="review-star">&#10029;&#10029;&#10029;&#10029;&#10029;</p>
+	<p style="text-align:left;">Excellent innovation and excellent understanding
+	   of customer needs.An organisation run professionally 
+	   confirming to international standards. Warm, 
+	   caring and friendly staff..!!</p>
+	</div>	 -->
+    </div>
+
+    <hr class="mid-line"></hr>
+
+    <div class="more-about">
+        <div class="more-about-tile-left">
+            <h2 id="contact">Kalady</h2>
+            <p><b>Address</b></p>
+            <p>ASIET,Near B-Hub<br>Ernakulam<br>683574</p>
+            <p>Email : <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e68f888089a687839489828390838a8996839495c885898b">[email&#160;protected]</a>
+                <br>Email : <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d2a1b3beb7a192b7b6a7a5b3a0b7fcb1bdfcbbbc">[email&#160;protected]</a>
+                <br>Email : <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="23505653534c515763464756544251460d404c0d4a4d">[email&#160;protected]</a></p>
+            <p>Phone : +91 8943369799
+                <br>Phone : +91 9447499017</p>
+        </div>
+        <div class="contact-about-tile-left"></div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-division">
+            <h6>Eduware</h6>
+            <img src="images/logo.png" class="navbar-logo" style="float:none;">
+            <br><a class="txt-none footer-division-content">Designed&nbsp;by&nbsp;AERO
+                <br>&copy;&nbsp;Eduware&nbsp;2020
+                <br>&copy;&nbsp;AERO&nbsp;Developers&nbsp;2020</a>
+        </div>
+        <div class="footer-division">
+            <h6>Quick Links</h6>
+            <br><a class="txt-none li footer-division-content" href="index.php#contact">Contact&nbsp;Us</a>
+            <br><a class="txt-none li footer-division-content" href="index.php#pricing">Pricing</a>
+            <br><a class="txt-none li footer-division-content" href="index.php#examination">About</a>
+            <br><a class="txt-none li footer-division-content" href="index.php#index">Home</a>
+        </div>
+        <div class="footer-division">
+            <h6>Related Links</h6>
+            <br><a class="txt-none footer-division-content" href="http://www.eduware.co.in/">Eduware</a>
+            <br><a class="txt-none footer-division-content" href="https://excalibursolutions.co.in">Excalibur&nbsp;Solutions</a>
+        </div>
+        <div class="footer-division">
+            <h6>Contact Us</h6>
+            <p class="txt-none footer-division-content">Aero developers
+                <br>Mattoor, Kalady Ernakulam District
+                <br>Kerala State, Pin: 683574</p>
+            <p class="txt-none footer-division-content">
+                Email : <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="40292e262f002125322f242536252c2f302532336e232f2d">[email&#160;protected]</a><br> Email : <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6112000d041221040514160013044f020e4f080f">[email&#160;protected]</a><br>                Email : <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bccfc9ccccd3cec8fcd9d8c9cbddced992dfd392d5d2">[email&#160;protected]</a></p>
+            <p class="txt-none footer-division-content">
+                Phone : +91 8943369799<br>Phone : +91 9447499017</p>
+        </div>
+    </footer>
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+</body>
+
+</html>
